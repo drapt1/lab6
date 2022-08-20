@@ -8,7 +8,7 @@ int main()
     cout << "Введите строку ";
     string s;
     getline(cin, s);
-        for (string::iterator i = s.begin(); i != s.end(); ++i)
+        for (string::iterator i = s.begin(); i != s.end(); ++i)// переход в другой тип
         if (ispunct(*i))
         {
             *i = ' ';
