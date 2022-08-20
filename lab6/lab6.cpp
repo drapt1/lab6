@@ -1,6 +1,6 @@
-﻿#include <string>
+﻿#include <iostream>
+#include <string>
 #include <algorithm>
-#include <iostream>
 
 using namespace std;
 
